@@ -23,10 +23,17 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int a=Integer.parseInt(first.getText().toString());
-                int b=Integer.parseInt(second.getText().toString());
-                int s=a+b;
-                result.setText(Integer.toString(s));
+                try
+                {
+                    int a = Integer.parseInt(first.getText().toString());
+                    int b = Integer.parseInt(second.getText().toString());
+                    int s = a + b;
+                    result.setText(Integer.toString(s));
+                }
+                catch (Exception ex)
+                {
+                    Toast.makeText(getApplicationContext(),getResources().getString(R.string.error),Toast.LENGTH_LONG).show();
+                }
             }
         });
     }

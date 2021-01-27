@@ -3,4 +3,5 @@
     <string name="firstvar">Enter first variable</string>
     <string name="secondvar">Enter second variable</string>
     <string name="add">Addition</string>
+    <string name="error">Enter all variables</string>
 </resources>

@@ -4,4 +4,5 @@
     <string name="firstvar">Введите первую переменную</string>
     <string name="secondvar">Введите вторую переменную</string>
     <string name="add">Сложить</string>
+    <string name="error">Введите все переменные</string>
 </resources>
